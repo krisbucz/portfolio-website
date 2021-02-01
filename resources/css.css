@@ -1,0 +1,25 @@
+/*main container*/
+main{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: row;
+}
+/*intro container*/
+#introContainer{
+    width: 25%;
+    height: 100%;
+    background-color: #00A8A8;
+}
+/*projects container*/
+#projectsContainer{
+    width: 50%;
+    min-height: 100%;
+    background-color: #2EB5E0;
+}
+/*intro container*/
+#aboutMeContainer{
+    width: 25%;
+    min-height: 100%;
+    background-color: #C4DBE0;
+}
