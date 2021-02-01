@@ -11,11 +11,17 @@ main{
     width: 25%;
     height: 100%;
     background-color: #00A8A8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 #introContainer h1{
     font-family: 'Lobster', cursive;
     font-size: 3em;
     color: #0C6980;
+    padding: 5px;
 }
 #introContainer h1 span{
     color: #ffffff;
@@ -26,15 +32,31 @@ main{
     width: 50%;
     min-height: 100%;
     background-color: #2EB5E0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #projectsContainer h1{
     font-family: 'Lobster', cursive;
     font-size: 3em;
     color: #ffffff;
+    padding: 5px;
 }
 /*intro container*/
 #aboutMeContainer{
     width: 25%;
     min-height: 100%;
     background-color: #C4DBE0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#aboutMeContainer header{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #ffffff;
+    padding: 5px;
 }
