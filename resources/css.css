@@ -24,12 +24,23 @@ main{
 }
 #introContainer h1{
     font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #0C6980;
     padding: 5px;
 }
 #introContainer h1 span{
     color: #ffffff;
+}
+#introContainer contact h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #0C6980;
+}
+#introContainer contact hr{
+    color: #0C6980;
+    width: 70%;
+    border: 4px solid #0C6980;
+    border-radius: 2px;
 }
 #introContainer contact ul li{
     display: inline;
@@ -37,7 +48,13 @@ main{
 }
 #introContainer contact ul li a img{
     border: none;
-    width: 18%;
+    width: 15%;
+}
+#introContainer contact p{
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 5px;
 }
 
 /*projects container*/
@@ -71,5 +88,5 @@ main{
     font-family: 'Lobster', cursive;
     font-size: 3em;
     color: #ffffff;
-    padding: 5px;
+    margin: 5px;
 }
