@@ -5,17 +5,32 @@ main{
     display: inline-flex;
     flex-direction: row;
 }
+
 /*intro container*/
 #introContainer{
     width: 25%;
     height: 100%;
     background-color: #00A8A8;
 }
+#introContainer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #0C6980;
+}
+#introContainer h1 span{
+    color: #ffffff;
+}
+
 /*projects container*/
 #projectsContainer{
     width: 50%;
     min-height: 100%;
     background-color: #2EB5E0;
+}
+#projectsContainer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #ffffff;
 }
 /*intro container*/
 #aboutMeContainer{
