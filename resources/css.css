@@ -17,6 +17,11 @@ main{
     align-items: center;
     justify-content: space-evenly;
 }
+#introContainer img{
+    border-radius: 50%;
+    width: 40%;
+    border: 3px solid #ffffff;
+}
 #introContainer h1{
     font-family: 'Lobster', cursive;
     font-size: 3em;
@@ -26,6 +31,7 @@ main{
 #introContainer h1 span{
     color: #ffffff;
 }
+
 
 /*projects container*/
 #projectsContainer{
