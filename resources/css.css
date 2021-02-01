@@ -31,7 +31,14 @@ main{
 #introContainer h1 span{
     color: #ffffff;
 }
-
+#introContainer contact ul li{
+    display: inline;
+    margin: 5px;
+}
+#introContainer contact ul li a img{
+    border: none;
+    width: 18%;
+}
 
 /*projects container*/
 #projectsContainer{
