@@ -55,6 +55,7 @@ main{
     margin-top: 5px;
     border: none;
     width: 15%;
+    transition: 0.3s;
 }
 #introContainer contact ul li a img:hover{
     transform: scale(1.5);
@@ -148,14 +149,14 @@ main{
     color:  #fff;
     margin: 5px;
 }
-#aboutMeContainer button{
+#aboutMeButton{
     font-family: 'Lobster', cursive;
     font-size: 2em;
     color: #fff;
     padding: 20px;
     border-radius: 50%;
     border: #0C6980 5px solid;
-    background-color: #00A8A8;
+    background-color: #2EB5E0;
 }
 /*scrollbar*/
 ::-webkit-scrollbar {
