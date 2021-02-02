@@ -52,8 +52,12 @@ main{
     margin: 5px;
 }
 #introContainer contact ul li a img{
+    margin-top: 5px;
     border: none;
     width: 15%;
+}
+#introContainer contact ul li a img:hover{
+    transform: scale(1.5);
 }
 #introContainer contact p{
     font-family: 'Lobster', cursive;
@@ -71,7 +75,8 @@ main{
     display: grid;
     grid-template-areas: repeat(8, 1fr) / repeat(4, 1fr);
     grid-auto-flow: row;
-    overflow:scroll;
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
 #projectsContainer h1{
     font-family: 'Lobster', cursive;
@@ -125,19 +130,47 @@ main{
 }
 /*about us container*/
 #aboutMeContainer{
+    background: url("images/aboutMeBg.png") #00A8A8;
+    background-blend-mode: overlay;
+    background-size: cover;
     width: 25%;
     min-height: 100%;
-    background-color: #C4DBE0;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 20px 50px 100px -20px, rgba(0, 0, 0, 0.3) 30px 30px 60px -30px, rgba(10, 37, 64, 0.35) 10px -2px 6px 0px inset;
 }
 #aboutMeContainer header{
     font-family: 'Lobster', cursive;
     font-size: 3em;
-    color: #ffffff;
+    color:  #fff;
     margin: 5px;
+}
+#aboutMeContainer button{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    border: #0C6980 5px solid;
+    background-color: #00A8A8;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    background: #0C6980;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-corner{
+    display: none;
+}
+::-webkit-scrollbar-track-piece{
+    display: none;
 }
