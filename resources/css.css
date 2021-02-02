@@ -85,13 +85,17 @@ main{
     color: #fff;
     grid-area: 1 / 1 / 2 / 5;
     text-decoration: underline;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 #projectsContainer figure{
     background-color: #00A8A8;
     padding: 1%;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition-duration: 3s;
+}
+#projectsContainer figure:hover{
+    transform: scale(1.1);
 }
 #projectsContainer info{
     background-color: rgba(196,219,224,0.8);
@@ -99,6 +103,7 @@ main{
     margin: 10% 10%;
     border-radius: 10px;
     padding: 5px;
+    z-index: 5;
 }
 #projectsContainer info h2{
     font-family: 'Lobster', cursive;
