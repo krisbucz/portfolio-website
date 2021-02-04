@@ -95,7 +95,7 @@ main{
     transition-duration: 3s;
 }
 #projectsContainer figure:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 #projectsContainer info{
     background-color: rgba(196,219,224,0.8);
@@ -133,6 +133,20 @@ main{
 }
 #projectsContainer #project3Info{
     grid-area: 7 / 2 / 8 / 5;
+}
+#exitButton{
+    border-radius: 50%;
+    border: 3px solid #0C6980;
+    background-color: #00A8A8;
+    color: #0C6980;
+    width: 30px;
+    height: 30px;
+    float:right;
+    transition: 1s;
+    display: block;
+}
+#exitButton:hover{
+    transform: scale(1.5);
 }
 /*about us container*/
 #aboutMeContainer{
