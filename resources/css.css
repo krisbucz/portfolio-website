@@ -13,7 +13,7 @@ main{
 /*intro container*/
 #introContainer{
     width: 25%;
-    height: 100%;
+    min-height: 100%;
     background-color: #00A8A8;
     text-align: center;
     display: flex;
@@ -172,7 +172,7 @@ main{
     font-family: 'Lobster', cursive;
     font-size: 2em;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50%;
     border: #0C6980 5px solid;
     background-color: #2EB5E0;
@@ -193,4 +193,101 @@ main{
 }
 ::-webkit-scrollbar-track-piece{
     display: none;
+}
+
+@media only screen and (max-width:1100px){
+    #introContainer h1{
+        font-size: 2em;
+    }
+    #introContainer contact p{
+        font-size: 1.2em;
+        margin: 2px;
+    }
+    #projectsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #projectsContainer info{
+        margin: 2% 2%;
+    }
+    #projectsContainer h1{
+        grid-area: null;
+        order: 1;
+    }
+    #projectsContainer #project1{
+        grid-area: null;
+        order: 2;
+        flex-shrink: 1;
+    }
+    #projectsContainer #project1Info{
+        grid-area: null;
+        order: 3;
+        flex-shrink: 2;
+    }
+    #projectsContainer #project2{
+        grid-area: null;
+        order: 4;
+        flex-shrink: 1;
+    }
+    #projectsContainer #project2Info{
+        grid-area: null;
+        order: 5;
+        flex-shrink: 2;
+    }
+    #projectsContainer #project3{
+        grid-area: null;
+        order: 6;
+        flex-shrink: 1;
+    }
+    #projectsContainer #project3Info{
+        grid-area: null;
+        order: 7;
+        flex-shrink: 2;
+    }
+    #projectsContainer figure img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    #introContainer img{
+        transform: scale(1.2);
+    }
+    #introContainer contact h2{
+        font-size: 1.3em;
+    }
+    #introContainer contact p{
+        line-height: 1.5;
+        margin: 0;
+    }
+    #introContainer contact{
+        word-wrap: break-word;
+        height: 30%;
+        width: 100%;
+        padding: 0 2px;
+    }
+    #projectsContainer info h2{
+        font-size: 1.5em;
+    }
+    #projectsContainer info p{
+        font-size: 1.2em;
+    }
+    #aboutMeContainer header{
+        font-size: 2em;
+    }
+    #aboutMeButton{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 650px){
+    #projectsContainer h1{
+        font-size: 2em;
+    }
+    #introContainer h1{
+        font-size: 1.5em;
+    }
+    #projectsContainer figure{
+        transform: scale(0.9);
+        margin:0%;
+    }
 }
